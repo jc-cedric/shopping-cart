@@ -1,34 +1,19 @@
 const productsArray = [
   {
-    id: 1,
+    id: "price_1LxXcoHz6jUVw9C988sJLODD",
     title: "Coffee",
     price: 4.99
   },
   {
-    id: 2,
+    id: "price_1LxYVwHz6jUVw9C9yF3x60SG",
     title: "Camera",
     price: 6.03
   },
   {
-    id: 3,
+    id: "price_1LxYUkHz6jUVw9C9rJMpiwK7",
     title: "Sunglasses",
     price: 5.21
-  },
-  {
-    id: 4,
-    title: "Palm oil",
-    price: 8.20
-  },
-  {
-    id: 5,
-    title: "Strawberrry",
-    price: 7.99
-  },
-  {
-    id: 6,
-    title: "Furniture",
-    price: 4.99
-  },
+  }
 ]
 
 const getProductData = (id)=> {
