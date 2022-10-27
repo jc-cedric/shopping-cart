@@ -6,7 +6,6 @@ import { useContext } from "react";
 const ProductCards = ({product}) => {
   const cart = useContext(CartContext)
   const productQuantity = cart.getProductQuantity(product.id)
-  console.log(cart.items)
 
   return (
     <div>
