@@ -1,3 +1,3 @@
 ## Shopping cart
 
-This project is a just a sample to practice the new features of React-Router and review Docker concepts
+This project is a just a test project to practice the new features of React-Router and review some Docker concepts
