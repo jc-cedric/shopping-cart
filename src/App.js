@@ -11,7 +11,7 @@ function App() {
   return (
     <CartProvider>
       <Container>
-        <NavbarComponent></NavbarComponent>
+        <NavbarComponent/>
         <BrowserRouter>
           <Routes>
             <Route index element={<Store/>}></Route>

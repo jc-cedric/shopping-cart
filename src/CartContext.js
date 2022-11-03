@@ -78,6 +78,7 @@ const CartProvider = ({children}) => {
     cartProducts.map((cartItem) => {
       const productData = getProductData(cartItem.id)
       totalCost += (productData.price * cartItem.quantity)
+      return cartItem
     })
 
     return totalCost
